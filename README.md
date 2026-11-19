@@ -1,49 +1,50 @@
-# Hi, I'm Sumukh 👋
+<div align="center">
+  <img src="./assets/banner.svg" alt="Sumukh, Full-Stack Developer" width="100%">
+</div>
 
-**Aspiring full-stack developer based in Bengaluru.**
-BCA graduate (Jain University), now pursuing my MCA at RV College of Engineering.
+<br>
 
-I build web interfaces and apps, and I'm leveling up on the backend. I also have hands-on data analytics experience from an internship.
+<div align="center">
+  <img src="https://img.shields.io/badge/HTML5-0a0f1e?style=flat-square&logo=html5&logoColor=E34F26" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-0a0f1e?style=flat-square&logo=css3&logoColor=1572B6" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-0a0f1e?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript">
+  <img src="https://img.shields.io/badge/Firebase-0a0f1e?style=flat-square&logo=firebase&logoColor=FFCA28" alt="Firebase">
+  <img src="https://img.shields.io/badge/Netlify-0a0f1e?style=flat-square&logo=netlify&logoColor=00C7B7" alt="Netlify">
+  <img src="https://img.shields.io/badge/Python-0a0f1e?style=flat-square&logo=python&logoColor=3776AB" alt="Python">
+  <img src="https://img.shields.io/badge/SQL-0a0f1e?style=flat-square&logo=postgresql&logoColor=4479A1" alt="SQL">
+  <img src="https://img.shields.io/badge/Power_BI-0a0f1e?style=flat-square&logo=powerbi&logoColor=F2C811" alt="Power BI">
+  <img src="https://img.shields.io/badge/Ubuntu-0a0f1e?style=flat-square&logo=ubuntu&logoColor=E95420" alt="Ubuntu">
+</div>
 
-## Tech stack
+<br>
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)
-![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=flat&logo=netlify&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat&logo=powerbi&logoColor=black)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat&logo=ubuntu&logoColor=white)
+<img src="./assets/terminal.svg" alt="Terminal card with who I am, my stack and what I'm learning" width="100%">
 
-**Front end:** HTML, CSS, JavaScript
-**Hosting and services:** Firebase, Netlify
-**Data:** Python, SQL, Power BI, DAX
-
-## 🌱 Currently learning
-Node.js · Express · PostgreSQL · REST APIs · authentication (JWT)
+<img src="./assets/divider.svg" alt="" width="100%">
 
 ## Featured projects
 
-### 🏢 Sumukha ERP
-A web ERP for a nursing services company, built with Firebase and Netlify.
+### Sumukh ERP
+A web ERP for a nursing services company, built with JavaScript, Firebase and Netlify.
+
 - Role-based access control (RBAC)
 - Animated dashboards with dark mode
 - Employee PDF generation
 - Finance module
 
-[Repo](#) · [Live demo](#)
+[Repo](#) | [Live demo](#)
 
-### 🚧 Task Manager API *(coming soon)*
+### Task Manager API (coming soon)
 My first full-stack project with my own backend: Node.js, Express, PostgreSQL, JWT login, deployed live.
 
+<img src="./assets/divider.svg" alt="" width="100%">
+
 ## Experience
-- **Data Analyst Intern**: built dashboards and reports with Power BI, DAX, Python, and SQL
 
-## Currently
-- 🎓 MCA at RVCE, Bengaluru
-- 🔧 Working on Ubuntu and learning backend development
+**Data Analyst Intern**: built dashboards and reports with Power BI, DAX, Python and SQL.
 
-## Reach me
-[LinkedIn](#) · [Email](mailto:you@example.com) · [Portfolio](#)
+<img src="./assets/divider.svg" alt="" width="100%">
+
+## Contact
+
+[LinkedIn](#) | [Email](mailto:you@example.com) | [Portfolio](#)
