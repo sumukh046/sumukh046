@@ -15,8 +15,10 @@
 <div align="center">
   <a href="https://github.com/sumukh046?tab=repositories"><img src="./assets/card-erp.svg" alt="Sumukha ERP: employee management and GST invoice module" width="49%"></a>
   <a href="https://github.com/sumukh046/portfolio"><img src="./assets/card-portfolio.svg" alt="Portfolio: my personal portfolio site" width="49%"></a>
-  <a href="https://github.com/sumukh046?tab=repositories"><img src="./assets/card-api.svg" alt="Task Manager API: in progress" width="49%"></a>
-  <img src="./assets/card-assistant.svg" alt="Offline Voice Assistant: planned" width="49%">
+</div>
+
+<div align="center">
+  <a href="https://github.com/sumukh046?tab=repositories"><img src="./assets/card-repos.svg" alt="More on GitHub: browse all my repositories" width="100%"></a>
 </div>
 
 <img src="./assets/heading-activity.svg" alt="Contribution activity" width="100%">
