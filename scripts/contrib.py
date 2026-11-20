@@ -9,6 +9,8 @@ USER = os.environ.get("GH_USER", "sumukh046")
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
 OUT = Path(__file__).resolve().parent.parent / "assets" / "contrib.svg"
 UA = {"User-Agent": "profile-contrib-graph"}
+# Cell colours, from "no contributions" to "most". Swap these hex values to restyle the calendar.
+LEVEL_COLORS = ["#0f1830", "#0e4429", "#006d32", "#26a641", "#39d353"]
 LEVELS = {"NONE": 0, "FIRST_QUARTILE": 1, "SECOND_QUARTILE": 2, "THIRD_QUARTILE": 3, "FOURTH_QUARTILE": 4}
 
 
@@ -94,12 +96,11 @@ def render(days):
     a(f'<title id="t">{total} contributions in the last year, current streak {cur} days, longest streak {longest} days</title>')
     a('''<defs>
 <linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset=".55" stop-color="#8b5cf6"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
-<linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".10"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
 </defs>
 <style>
 .m{font-family:'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono','Courier New',monospace}
 .s{font-family:'Inter','Segoe UI','Helvetica Neue',Arial,sans-serif}
-.c0{fill:#0f1830}.c1{fill:#0e7490}.c2{fill:#22d3ee}.c3{fill:#8b5cf6}.c4{fill:#f472b6}
+/*LEVELS*/
 .cell{transform-box:fill-box;transform-origin:center;animation:pop .55s cubic-bezier(.2,.9,.3,1.3) backwards}
 .hot{animation:pop .55s cubic-bezier(.2,.9,.3,1.3) backwards,glow 3.4s ease-in-out infinite}
 .rise{animation:rise .8s ease-out backwards}
@@ -109,7 +110,7 @@ def render(days):
 @keyframes rise{from{opacity:0;transform:translateY(10px)}}
 @keyframes ring{0%,100%{stroke-opacity:.25}50%{stroke-opacity:1}}
 @media (prefers-reduced-motion:reduce){*{animation:none!important}}
-</style>''')
+</style>'''.replace("/*LEVELS*/", "".join(f".c{i}{{fill:{c}}}" for i, c in enumerate(LEVEL_COLORS))))
     a('<rect x=".5" y=".5" width="1199" height="%d" rx="16" fill="#070b17" stroke="#1c2745"/>' % (H - 1))
     stats = [(str(total), "contributions in the last year"), (str(cur), "day current streak"),
              (str(longest), "day longest streak"), (busiest, "busiest day of the week")]
@@ -141,10 +142,6 @@ def render(days):
             a(f'<rect class="cell c{lv}" x="{x:.1f}" y="{y}" width="{S}" height="{S}" rx="3.5" style="animation-delay:{delay:.2f}s"/>')
         last = (x, y)
     a(f'<rect class="ring" x="{last[0]-2:.1f}" y="{last[1]-2}" width="{S+4}" height="{S+4}" rx="5"/>')
-    # sweep highlight across the grid
-    a(f'<clipPath id="gc"><rect x="{gx:.0f}" y="{gy}" width="{gridW}" height="{7*P-4}"/></clipPath>')
-    a(f'<g clip-path="url(#gc)"><rect x="{gx-160:.0f}" y="{gy}" width="160" height="{7*P-4}" fill="url(#sweep)">'
-      f'<animateTransform attributeName="transform" type="translate" from="0 0" to="{gridW+320}" dur="6s" begin="2.2s" repeatCount="indefinite"/></rect></g>')
     # legend
     lx = gx + gridW - 5 * P - 70
     ly = gy + 7 * P + 14
