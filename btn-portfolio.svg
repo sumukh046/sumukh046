@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210" height="58" viewBox="0 0 210 58" role="img" aria-labelledby="t"><title id="t">Portfolio</title>
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="0" ><stop offset="0" stop-color="#f472b6"/><stop offset="1" stop-color="#fbbf24"/></linearGradient>
+<clipPath id="c"><rect x="1" y="1" width="208" height="56" rx="28"/></clipPath></defs>
+<style>.s{font-family:'Inter','Segoe UI','Helvetica Neue',Arial,sans-serif}.t{animation:tr 6s linear infinite}@keyframes tr{to{stroke-dashoffset:-100}}@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<rect x="1" y="1" width="208" height="56" rx="28" fill="#0c1224" stroke="#1c2745"/>
+<rect class="t" x="1" y="1" width="208" height="56" rx="28" fill="none" stroke="url(#g)" stroke-width="2.2" pathLength="100" stroke-dasharray="22 78" stroke-linecap="round"/>
+<circle cx="30" cy="29" r="15" fill="url(#g)"/>
+<path d="M24 35 L36 23 M27 23 H36 V32" fill="none" stroke="#070b17" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="58" y="35" class="s" font-size="17" font-weight="700" fill="#f1f5f9">Portfolio</text></svg>
