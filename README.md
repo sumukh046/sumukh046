@@ -21,12 +21,6 @@
   <a href="https://github.com/sumukh046?tab=repositories"><img src="./assets/card-repos.svg" alt="More on GitHub: browse all my repositories" width="100%"></a>
 </div>
 
-<img src="./assets/heading-activity.svg" alt="Contribution activity" width="100%">
-
-<div align="center">
-  <img src="./assets/contrib.svg" alt="Animated contribution calendar with streak stats" width="100%">
-</div>
-
 <img src="./assets/heading-experience.svg" alt="Experience" width="100%">
 
 <div align="center">
