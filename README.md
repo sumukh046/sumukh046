@@ -2,49 +2,41 @@
   <img src="./assets/banner.svg" alt="Sumukh, Full-Stack Developer" width="100%">
 </div>
 
-<br>
-
 <div align="center">
-  <img src="https://img.shields.io/badge/HTML5-0a0f1e?style=flat-square&logo=html5&logoColor=E34F26" alt="HTML5">
-  <img src="https://img.shields.io/badge/CSS3-0a0f1e?style=flat-square&logo=css3&logoColor=1572B6" alt="CSS3">
-  <img src="https://img.shields.io/badge/JavaScript-0a0f1e?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript">
-  <img src="https://img.shields.io/badge/Firebase-0a0f1e?style=flat-square&logo=firebase&logoColor=FFCA28" alt="Firebase">
-  <img src="https://img.shields.io/badge/Netlify-0a0f1e?style=flat-square&logo=netlify&logoColor=00C7B7" alt="Netlify">
-  <img src="https://img.shields.io/badge/Python-0a0f1e?style=flat-square&logo=python&logoColor=3776AB" alt="Python">
-  <img src="https://img.shields.io/badge/SQL-0a0f1e?style=flat-square&logo=postgresql&logoColor=4479A1" alt="SQL">
-  <img src="https://img.shields.io/badge/Power_BI-0a0f1e?style=flat-square&logo=powerbi&logoColor=F2C811" alt="Power BI">
-  <img src="https://img.shields.io/badge/Ubuntu-0a0f1e?style=flat-square&logo=ubuntu&logoColor=E95420" alt="Ubuntu">
+  <img src="./assets/stack.svg" alt="Tech stack: HTML, CSS, JavaScript, Firebase, Netlify, GitHub, Ubuntu, Python, SQL, Power BI, DAX. Learning Node.js, Express and PostgreSQL." width="100%">
 </div>
 
-<br>
+<div align="center">
+  <img src="./assets/terminal.svg" alt="Terminal card: who I am, my stack and what I am learning" width="100%">
+</div>
 
-<img src="./assets/terminal.svg" alt="Terminal card with who I am, my stack and what I'm learning" width="100%">
+<img src="./assets/heading-projects.svg" alt="Featured projects" width="100%">
 
-<img src="./assets/divider.svg" alt="" width="100%">
+<div align="center">
+  <a href="https://github.com/sumukh046?tab=repositories"><img src="./assets/card-erp.svg" alt="Sumukha ERP: employee management and GST invoice module" width="49%"></a>
+  <a href="https://github.com/sumukh046/portfolio"><img src="./assets/card-portfolio.svg" alt="Portfolio: my personal portfolio site" width="49%"></a>
+  <a href="https://github.com/sumukh046?tab=repositories"><img src="./assets/card-api.svg" alt="Task Manager API: in progress" width="49%"></a>
+  <img src="./assets/card-assistant.svg" alt="Offline Voice Assistant: planned" width="49%">
+</div>
 
-## Featured projects
+<img src="./assets/heading-activity.svg" alt="Contribution activity" width="100%">
 
-### Sumukh ERP
-A web ERP for a nursing services company, built with JavaScript, Firebase and Netlify.
+<div align="center">
+  <img src="./assets/contrib.svg" alt="Animated contribution calendar with streak stats" width="100%">
+</div>
 
-- Role-based access control (RBAC)
-- Animated dashboards with dark mode
-- Employee PDF generation
-- Finance module
+<img src="./assets/heading-experience.svg" alt="Experience" width="100%">
 
-[Repo](#) | [Live demo](#)
+<div align="center">
+  <img src="./assets/card-experience.svg" alt="Data Analyst Intern: dashboards and reports with Power BI, DAX, Python and SQL" width="100%">
+</div>
 
-### Task Manager API (coming soon)
-My first full-stack project with my own backend: Node.js, Express, PostgreSQL, JWT login, deployed live.
+<img src="./assets/heading-contact.svg" alt="Get in touch" width="100%">
 
-<img src="./assets/divider.svg" alt="" width="100%">
+<div align="center">
+  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN"><img src="./assets/btn-linkedin.svg" alt="LinkedIn" height="52"></a>
+  <a href="mailto:YOUR-EMAIL@example.com"><img src="./assets/btn-email.svg" alt="Email" height="52"></a>
+  <a href="YOUR-PORTFOLIO-URL"><img src="./assets/btn-portfolio.svg" alt="Portfolio" height="52"></a>
+</div>
 
-## Experience
-
-**Data Analyst Intern**: built dashboards and reports with Power BI, DAX, Python and SQL.
-
-<img src="./assets/divider.svg" alt="" width="100%">
-
-## Contact
-
-[LinkedIn](#) | [Email](mailto:you@example.com) | [Portfolio](#)
+<img src="./assets/footer.svg" alt="Thanks for stopping by" width="100%">
