@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="306" viewBox="0 0 1200 306" role="img" aria-labelledby="t">
-<title id="t">204 contributions in the last year, current streak 4 days, longest streak 4 days</title>
+<title id="t">214 contributions in the last year, current streak 4 days, longest streak 4 days</title>
 <defs>
 <linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset=".55" stop-color="#8b5cf6"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
 </defs>
@@ -18,7 +18,7 @@
 @media (prefers-reduced-motion:reduce){*{animation:none!important}}
 </style>
 <rect x=".5" y=".5" width="1199" height="305" rx="16" fill="#070b17" stroke="#1c2745"/>
-<g class="rise" style="animation-delay:0.00s"><text x="108" y="62" class="s" font-size="40" font-weight="800" fill="url(#g)">204</text><text x="108" y="86" class="m" font-size="13" fill="#8392b3">contributions in the last year</text></g>
+<g class="rise" style="animation-delay:0.00s"><text x="108" y="62" class="s" font-size="40" font-weight="800" fill="url(#g)">214</text><text x="108" y="86" class="m" font-size="13" fill="#8392b3">contributions in the last year</text></g>
 <g class="rise" style="animation-delay:0.12s"><text x="370" y="62" class="s" font-size="40" font-weight="800" fill="url(#g)">4</text><text x="370" y="86" class="m" font-size="13" fill="#8392b3">day current streak</text></g>
 <g class="rise" style="animation-delay:0.24s"><text x="632" y="62" class="s" font-size="40" font-weight="800" fill="url(#g)">4</text><text x="632" y="86" class="m" font-size="13" fill="#8392b3">day longest streak</text></g>
 <g class="rise" style="animation-delay:0.36s"><text x="894" y="62" class="s" font-size="40" font-weight="800" fill="url(#g)">Sunday</text><text x="894" y="86" class="m" font-size="13" fill="#8392b3">busiest day of the week</text></g>
